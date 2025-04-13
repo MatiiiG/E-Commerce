@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciuchex</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="Header">
+        <div class="Header-Layout">
+            <div class="Header-Logo">
+                <h2> <a href="" target="_self">CIUCHEX</a></h2>
+            </div>
+            <div class="Tree-view">
+                <ul>
+                    <li data-target="nowosci">
+                        <span class="news">Nowości</span>
+                    </li>
+                    <li data-target="kobieta">
+                        <span class="news">Kobieta</span>
+                    </li>
+                    <li data-target="mezczyzna">
+                        <span class="news">Mężczyzna</span>
+                    </li>
+                    <li data-target="teens">
+                        <span class="news">Teens</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-header">
+                <h4>Strona w budowie</h4>
+            </div>
+            <div class="Tools">
+                <div class="Search">
+                    <img src="Images/iconmonstr-magnifier-lined-240.png" alt="" srcset="" width="16px" height="16px">
+                    <input type="text" textcontext="Szukaj">
+                </div>
+                <div class="Country">
+                    <img src="Images/iconmonstr-flag-4-240.png" alt="" srcset="" width="16px" height="16px">
+                    <a>PL</a>
+                </div>
+                <div class="Account">
+                    <img src="Images/iconmonstr-user-male-thin-240.png" alt="" srcset="" width="16px" height="16px">
+                    <a>Konto</a>
+                </div>
+                <div class="Favourite">
+                    <img src="Images/iconmonstr-heart-lined-240.png" alt="" srcset="" width="16px" height="16px">
+                    <a>Ulubione</a>
+                </div>
+                <div class="Basket">
+                    <img src="Images/iconmonstr-basket-2-240.png" alt="" srcset="" width="16px" height="16px">
+                    <a>Koszyk</a>
+                </div>
+            </div>
+            <div class="news-news" id="nowosci">
+                <div class="menu-column">
+                    <ul>
+                        <h1>Nowości dla niej</h1>
+                        <h1>Nowości dla niego</h1>
+                    </ul>
+                </div>
+            </div>
+            <div class="news-news" id="kobieta">
+                <div class="menu-column">
+                    <h1>Ubrania</h1>
+                    <ul>
+                        <li>Bluzy</li>
+                        <li>Kurtki, płaszcze</li>
+                        <li>Koszulki, topy</li>
+                        <li>Koszule</li>
+                        <li>Bluzki</li>
+                        <li>Sukienki</li>
+                        <li>Swetry</li>
+                        <li>Jeansy</li>
+                        <li>Spodnie</li>
+                        <li>Spódnice</li>
+                        <li>Shorty</li>
+                        <li>Stroje kąpielowe</li>
+                    </ul>
+                </div>
+                <div class="menu-column">
+                    <h1>Buty & Dodatki</h1>
+                    <ul>
+                        <li>Buty</li>
+                        <li>Bielizna</li>
+                        <li>Skarpety</li>
+                        <li>Piżamy, szlafroki</li>
+                        <li>Torby, plecaki</li>
+                        <li>Akcesoria do włosów</li>
+                        <li>Czapki</li>
+                        <li>Okulary</li>
+                        <li>Biżuteria</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="news-news" id="mezczyzna">
+                <div class="menu-column">
+                    <h1>Ubrania</h1>
+                    <ul>
+                        <li>Basic</li>
+                        <li>Kurtki, płaszcze</li>
+                        <li>Koszulki</li>
+                        <li>Koszule</li>
+                        <li>Bluzy</li>
+                        <li>Sukienki</li>
+                        <li>Swetry</li>
+                        <li>Jeansy</li>
+                        <li>Spodnie</li>
+                        <li>Shorty</li>
+                        <li>Shorty kąpielowe</li>
+                    </ul>
+                </div>
+                <div class="menu-column">
+                    <h1>Buty & Dodatki</h1>
+                    <ul>
+                        <li>Buty</li>
+                        <li>Bielizna</li>
+                        <li>Skarpety</li>
+                        <li>Piżamy, portfele</li>
+                        <li>Torby, plecaki</li>
+                        <li>Czapki</li>
+                        <li>Szalik, rękawiczki</li>
+                        <li>Biżuteria</li>
+                    </ul>
+                </div>
+            </div>
+                <div class="news-news" id="teens">
+                    <div class="menu-column">
+                        <h1>Teens</h1>
+                        <ul>
+                            <li>Dla niej</li>
+                            <li>Dla niego</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+        <div class="AccountDropDown">
+            <header>
+                <h1>Jesteś już użytkownikiem?</h1>
+                <button>Zaloguj się</button>
+                <hr class="news1">
+            </header>
+            <section>
+                <h1>Jesteś tu pierwszy raz?</h1>
+                <p>Zyskasz dostęp do wielu przydatnych funkcji.</p>
+                <button>Zarejestruj się</button>
+                <hr class="news2">
+            </section>
+            <footer>
+                <h1>Darmowa dostawa i zwrot w salonach</h1>
+                <p>Zamów swoją paczkę do dowolnego sklepu House i ciesz się darmową dostawą niezależnie od kwoty zakupów.
+                Chcesz oddać produkt? Na zwrot masz aż 365 dni, dokonasz go w salonach i paczkomatach InPost.</p>
+            </footer>
+        </div>
+        <div class="SearchDropDown">
+            <Header>
+                <h2> <a href="" target="_self">CIUCHEX</a></h2>
+                <img src="Images/iconmonstr-magnifier-lined-240.png" alt="" srcset="" width="50px" height="50px">
+                <input type="search" class="SearchInput" placeholder="Szukaj">
+                <button class="CloseButton">X</button>
+            </Header>
+            <section class="Popular">
+                <h1>Najpopularniejsze</h1>
+                <ul>
+                    <li>Bluza</li>
+                    <li>Bluzy</li>
+                    <li>Spodnie</li>
+                    <li>Koszulka</li>
+                    <li>Sukienka</li>
+                    <li>Dresy</li>
+                    <li>Ilia Topuria</li>
+                    <li>Bluza Damska</li>
+                </ul>
+            </section>
+           <!-- <section class="Searched">
+                <h1>Najczęściej wyszukiwane</h1>
+            
+                <div class="product">
+                    <img src="Images/Image1.jpg" alt="">
+                <div class="info">
+                        <h3>Kremowy sweter open shoulder</h3>
+                        <p><span>89.99 PLN</span></p>
+                    </div>
+                </div>
+            
+                <div class="product">
+                    <img src="Images/Image2.jpeg" alt="">
+                    <div class="info">
+                        <h3>Kremowy sweter open shoulder</h3>
+                        <p><span>89.99 PLN</span></p>
+                    </div>
+                </div>
+            
+                <div class="product">
+                    <img src="Images/Image3.jpg" alt="">
+                <div class="info">
+                    <h3>Kremowy sweter open shoulder</h3>
+                    <p><span>89.99 PLN</span></p>
+                </div>
+            </div>            
+            <div class="product">
+                <img src="Images/Image4.jpg" alt="">
+                <div class="info">
+                    <h3>Kremowy sweter open shoulder</h3>
+                    <p><span>89.99 PLN</span></p>
+                </div>
+            </div>
+        </section> -->
+    </div>
+    <div class="Main-Content">
+        <div class="Main-Layout">
+            <div class="Main-Images">
+                <img src="Images/Women-unsplash.jpg" alt="" srcset="" width="100%" class="Main-Image">
+                <img src="Images/Men-unsplash.jpg" alt="" width="100%" class="Men-Image">
+                <button class="Women-Button">DLA NIEJ</button>
+                <button class="Men-Button">DLA NIEGO</button>
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+            </div>
+        </div>
+    </div>
+    <section class="Recommended">
+        <div class="_Recommended">
+            <h2 class="MSS">Mid Season Sale</h2>
+            <ul class="Categories">
+                <li class="Category">
+                    <a href="">Kobieta</a>
+                </li>
+                <li class="Category active">
+                    <a href="">Mężczyzna</a>
+                </li>
+            </ul>
+        </div>
+        <div class="Boxes" id="BoxesSlider">
+            <div class="BoxesItem" id="BoxesItemSlider">
+            <!--POCZĄTEK-->
+                <div class="slider" id="SliderImage">
+                    <img src="Images/Image1.jpg" alt="" srcset="">
+                    <h3>Kremowy sweter open shoulder</h3>
+                    <p>
+                        <span>89.99 PLN</span>
+                    </p>
+                    <p>Najniższa cena przed obniżką <span> 139.99 PLN</span></p>
+                    <p>
+                        <span>
+                            MID SEASON SALE
+                        </span>
+                    </p>
+                </div>
+                <!--KONIEC-->
+                <!--POCZĄTEK-->
+                <div class="slider" id="SliderImage">
+                    <img src="Images/Image2.jpeg" alt="" srcset="">
+                    <h3>Kremowy sweter open shoulder</h3>
+                    <p>
+                        <span>89.99 PLN</span>
+                    </p>
+                    <p>Najniższa cena przed obniżką <span> 139.99 PLN</span></p>
+                    <p>
+                        <span>
+                            MID SEASON SALE
+                        </span>
+                    </p>
+                </div>
+                <!--KONIEC-->
+                <!--POCZĄTEK-->
+                <div class="slider" id="SliderImage">
+                    <img src="Images/Image3.jpg" alt="" srcset="">
+                    <h3>Kremowy sweter open shoulder</h3>
+                    <p>
+                        <span>89.99 PLN</span>
+                    </p>
+                    <p>Najniższa cena przed obniżką <span> 139.99 PLN</span></p>
+                    <p>
+                        <span>
+                            MID SEASON SALE
+                        </span>
+                    </p>
+                </div>
+                <!--KONIEC-->
+                <!--POCZĄTEK-->
+                <div class="slider" id="SliderImage">
+                    <img src="Images/Image4.jpg" alt="" srcset="">
+                    <h3>Kremowy sweter open shoulder</h3>
+                    <p>
+                        <span>89.99 PLN</span>
+                    </p>
+                    <p>Najniższa cena przed obniżką <span> 139.99 PLN</span></p>
+                    <p>
+                        <span>
+                            MID SEASON SALE
+                        </span>
+                    </p>
+                </div>
+                <!--KONIEC-->
+                <!--POCZĄTEK-->
+                <div class="slider" id="SliderImage">
+                    <img src="Images/Image5.jpg" alt="" srcset="">
+                    <h3>Kremowy sweter open shoulder</h3>
+                    <p>
+                        <span>89.99 PLN</span>
+                    </p>
+                    <p>Najniższa cena przed obniżką <span> 139.99 PLN</span></p>
+                    <p>
+                        <span>
+                            MID SEASON SALE
+                        </span>
+                    </p>
+                </div>
+                <!--KONIEC-->
+                <!--POCZĄTEK-->
+                <div class="slider" id="SliderImage">
+                    <img src="Images/Image6.jpg" alt="" srcset="">
+                    <h3>Kremowy sweter open shoulder</h3>
+                    <p>
+                        <span>89.99 PLN</span>
+                    </p>
+                    <p>Najniższa cena przed obniżką <span> 139.99 PLN</span></p>
+                    <p>
+                        <span>
+                            MID SEASON SALE
+                        </span>
+                    </p>
+                </div>
+                <!--KONIEC-->
+                <!--POCZĄTEK-->
+                <div class="slider" id="SliderImage">
+                    <img src="Images/Slider.jpeg" alt="" srcset="">
+                    <h3>Kremowy sweter open shoulder</h3>
+                    <p>
+                        <span>89.99 PLN</span>
+                    </p>
+                    <p>Najniższa cena przed obniżką <span> 139.99 PLN</span></p>
+                    <p>
+                        <span>
+                            MID SEASON SALE
+                        </span>
+                    </p>
+                </div>
+                <!--KONIEC-->
+                <!--POCZĄTEK-->
+                <div class="slider" id="SliderImage">
+                    <img src="Images/Image1.jpg" alt="" srcset="">
+                    <h3>Kremowy sweter open shoulder</h3>
+                    <p>
+                        <span>89.99 PLN</span>
+                    </p>
+                    <p>Najniższa cena przed obniżką <span> 139.99 PLN</span></p>
+                    <p>
+                        <span>
+                            MID SEASON SALE
+                        </span>
+                    </p>
+                </div>
+                <!--KONIEC-->
+                <!--POCZĄTEK-->
+                <div class="slider" id="SliderImage">
+                    <img src="Images/Image2.jpeg" alt="" srcset="">
+                    <h3>Kremowy sweter open shoulder</h3>
+                    <p>
+                        <span>89.99 PLN</span>
+                    </p>
+                    <p>Najniższa cena przed obniżką <span> 139.99 PLN</span></p>
+                    <p>
+                        <span>
+                            MID SEASON SALE
+                        </span>
+                    </p>
+                </div>
+                <!--KONIEC-->
+                <!--POCZĄTEK-->
+                <div class="slider" id="SliderImage">
+                    <img src="Images/Image3.jpg" alt="" srcset="">
+                    <h3>Kremowy sweter open shoulder</h3>
+                    <p>
+                        <span>89.99 PLN</span>
+                    </p>
+                    <p>Najniższa cena przed obniżką <span> 139.99 PLN</span></p>
+                    <p>
+                        <span>
+                            MID SEASON SALE
+                        </span>
+                    </p>
+                </div>
+                <!--KONIEC-->
+                <!--POCZĄTEK-->
+                <div class="slider" id="SliderImage">
+                    <img src="Images/Image4.jpg" alt="" srcset="">
+                    <h3>Kremowy sweter open shoulder</h3>
+                    <p>
+                        <span>89.99 PLN</span>
+                    </p>
+                    <p>Najniższa cena przed obniżką <span> 139.99 PLN</span></p>
+                    <p>
+                        <span>
+                            MID SEASON SALE
+                        </span>
+                    </p>
+                </div>
+                <div class="slider" id="SliderMore">
+                    <p>
+                        POKAŻ WSZYSTKO
+                    </p>
+                </div>
+            <!--KONIEC-->
+        </div>
+        <div class="Slider-Buttons">
+            <a class="ps-button">&#10094;</a>
+            <a class="ns-button">&#10095;</a>
+        </div>
+    </div>
+        <div class="More">
+            <Button>ZOBACZ WIĘCEJ</Button>
+        </div>
+    </section>
+    <div class="JustImage">
+        <img src="Images/Men-unsplash.jpg" alt="">
+    </div>
+    <footer>
+        <div class="FooterLeft">
+            <div class="FooterMenu">
+                <h1 class="FooterMenutitle">Pomoc</h1>
+                <ul class="FooterMenuList">
+                    <li class="FooterListItem">Pomoc i kontakt</li>
+                    <li class="FooterListItem">Pytania</li>
+                    <li class="FooterListItem">FAQ - często zadawane pytania</li>
+                    <li class="FooterListItem">Reklamacje</li>
+                    <li class="FooterListItem">Znajdź nas</li>
+                </ul>
+            </div>
+            <div class="FooterMenu">
+                <h1 class="FooterMenutitle">Regulamin</h1>
+                <ul class="FooterMenuList">
+                    <li class="FooterListItem">Regulamin sklepu internetowego CIUCHEX</li>
+                    <li class="FooterListItem">Regulamin usługi Click&Buy</li>
+                    <li class="FooterListItem">Zwrot i Wymiana — Salony CIUCHEX</li>
+                    <li class="FooterListItem">Regulamin Kart Podarunkowych</li>
+                </ul>
+            </div>
+            <div class="FooterMenu">
+                <h1 class="FooterMenutitle">Polityka prywatności</h1>
+                <ul class="FooterMenuList">
+                    <li class="FooterListItem">Polityka Prywatności</li>
+                    <li class="FooterListItem">Polityka Cookies</li>
+                    <li class="FooterListItem">Ustawienia cookies</li>
+                </ul>
+            </div>
+        </div>
+        <div class="FooterRight">
+            <div class="FooterRightMenu">
+                <h1 class="FooterMenutitle">Śledź nas</h1>
+                <div class="ikony">
+                    <img src="https://cdns.iconmonstr.com/wp-content/releases/preview/2017/240/iconmonstr-facebook-6.png" alt="" srcset="" class="FooterIcon">
+                    <img src="https://cdns.iconmonstr.com/wp-content/releases/preview/2012/240/iconmonstr-twitter-2.png" alt="" srcset="" class="FooterIcon">
+                    <img src="https://cdns.iconmonstr.com/wp-content/releases/preview/2016/240/iconmonstr-instagram-12.png" alt="" srcset="" class="FooterIcon">
+                    <img src="https://cdns.iconmonstr.com/wp-content/releases/preview/2016/240/iconmonstr-whatsapp-2.png" alt="" srcset="" class="FooterIcon">
+                </div>
+            </div>
+            <div class="FooterRightMenu">
+                <span class="CopyRight">@CIUCHEX. All rights reserved. 2025.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
